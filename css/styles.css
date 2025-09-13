@@ -36,6 +36,7 @@ img {
     --section-bg-color: #f4f4fd;
     --footer-bg-color: #2e2f42;
     --footer-media-text-color: #f4f4fd;
+    --white-color: #FFFFFF;
 }
 
 body {
@@ -358,7 +359,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .team-icon {
-    fill: var(--main-bg-color);
+    fill: var(--white-color, #FFFFFF);
 }
 
 .team-image {
@@ -559,7 +560,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .footer-media-icon {
-    fill: var(--footer-media-text-color);
+    color: var(--white-color, #FFFFFF);
 }
 
 /* ----------FOOTER---------- */
