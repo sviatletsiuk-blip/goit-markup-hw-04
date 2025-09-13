@@ -113,6 +113,7 @@ a {
 
 .header-menu-link:active{
     color: #404bbf;
+    position: relative;
 }
 
 .header-menu-link::after{
