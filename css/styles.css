@@ -113,7 +113,6 @@ a {
 
 .header-menu-link:active{
     color: #404bbf;
-    position: relative;
 }
 
 .header-menu-link::after{
@@ -125,6 +124,9 @@ a {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
+    transform: scaleX(1);
+        transform-origin: left;
+        transition: transform 0.3s ease;
 }
 
 .header-menu-link:hover,
