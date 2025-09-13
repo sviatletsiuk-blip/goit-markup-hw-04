@@ -516,12 +516,12 @@ width: calc((100% - 72px) / 4);
 
 
 .footer-text {
+    color: var(--footer-text-color);
     margin-top: 16px;
     max-width: 264px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--footer-text-color);
 }
 
 .footer-media-text {
