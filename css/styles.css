@@ -220,7 +220,7 @@ a {
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: #404bbf;
+    background-color: #404bbf;  
 }
 
 /* ----------HERO---------- */
@@ -232,6 +232,7 @@ a {
 }
 
 .features .container {
+    max-width: 1440px;
 }
 
 .visually-hidden {
