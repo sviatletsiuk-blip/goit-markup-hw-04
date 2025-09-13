@@ -520,7 +520,7 @@ width: calc((100% - 72px) / 4);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--WHITE, #FFFFFF);
+    color: var(--footer-text-color);
 }
 
 .footer-media-text {
