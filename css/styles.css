@@ -35,8 +35,7 @@ img {
     --header-title-color: #2e2f42;
     --section-bg-color: #f4f4fd;
     --footer-bg-color: #2e2f42;
-    --footer-text-color: #f4f4fd;
-    --white: #FFFFFF;
+    --footer-text-color: #FFFFFF
 }
 
 body {
@@ -521,7 +520,7 @@ width: calc((100% - 72px) / 4);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--white);
+    color: var(--footer-text-color);
 }
 
 .footer-media-text {
