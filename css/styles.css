@@ -560,7 +560,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .footer-media-icon {
-    color: var(--white);
+    fill: var(--footer-media-text-color);
 }
 
 /* ----------FOOTER---------- */
