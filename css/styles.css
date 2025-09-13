@@ -317,11 +317,11 @@ width: calc((100% - 72px) / 4);
 }
 
 .team-item {
-    border-radius: 0px 0px 4px 4px;
-    background-color: #fff;
-    padding-top: 0;
-    padding-bottom: 32px;
-    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+        background-color: #fff;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        padding-bottom: 32px;
+        width: calc((100% - 72px) / 4);
 }
 
 .team-image {
@@ -348,11 +348,41 @@ width: calc((100% - 72px) / 4);
     color: var(--main-text-color);
 }
 
-.team-icons {
-    margin-top: 8px;
+.team-icons-container {
+    padding: 32px 0;
+}
+
+.team-icons-list {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 24px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.team-icons-item {
+    width: 40px;
+    height: 40px;
+}
+
+.team-icon-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-icon-link:hover,
+.team-icon-link:focus {
+    background-color: #404bbf;
+}
+
+.team-icon {
+    fill: var(--footer-text-color);
 }
 
 /* ----------TEAM---------- */
