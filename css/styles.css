@@ -36,6 +36,7 @@ img {
     --section-bg-color: #f4f4fd;
     --footer-bg-color: #2e2f42;
     --footer-text-color: #f4f4fd;
+    --WHITE: #FFFFFF;
 }
 
 body {
@@ -520,7 +521,7 @@ width: calc((100% - 72px) / 4);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--footer-text-color);
+    color: var(--WHITE);
 }
 
 .footer-media-text {
