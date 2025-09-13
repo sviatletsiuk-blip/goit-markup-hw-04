@@ -35,7 +35,6 @@ img {
     --header-title-color: #2e2f42;
     --section-bg-color: #f4f4fd;
     --footer-bg-color: #2e2f42;
-    --white: #ffffff;
     --footer-media-text-color: #f4f4fd;
 }
 
@@ -359,7 +358,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .team-icon {
-    fill: var(--footer-text-color);
+    fill: var(--main-bg-color);
 }
 
 .team-image {
@@ -521,7 +520,7 @@ width: calc((100% - 72px) / 4);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--white);
+    color: var(--main-bg-color);
 }
 
 .footer-media-text {
