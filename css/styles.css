@@ -325,7 +325,7 @@ width: calc((100% - 72px) / 4);
         width: calc((100% - 72px) / 4);
 }
 
-.team-icons-container {
+.team-info {
     padding: 32px 0;
 }
 
@@ -359,7 +359,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .team-icon {
-    fill: var(--white-color);
+    fill: var(--footer-media-text-color);
 }
 
 .team-image {
