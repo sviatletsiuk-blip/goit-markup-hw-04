@@ -359,7 +359,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .team-icon {
-    fill: var(--footer-text-color);
+    fill: var(--white-color);
 }
 
 .team-image {
